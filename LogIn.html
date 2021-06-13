@@ -1,5 +1,27 @@
 <!DOCTYPE html>
-<head><title>Let's be friend</title></head>
+<head><title>Let's be friend</title>
+<script>
+	function checkforblank() {
+		if (document.getElementById('name').value == "") {
+			alert('Name is required');
+			return false;
+		}
+		if (document.getElementById('email').value == "") {
+			alert('Email is required');
+			return false;
+		}
+		if (document.getElementById('phone').value == "") {
+			alert('Phone no. is required');
+			return false;
+		}
+		if (document.getElementById('gender').value == "") {
+			alert('Gender is required');
+			return false;
+		}
+	}
+
+</script>
+</head>
 <body>
 <header>
 <a href="LogIn.html">
