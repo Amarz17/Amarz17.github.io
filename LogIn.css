@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("wallpaper.gif");
+}
+
+table{
+	float: left;
+	list-style-type: none;
+}
+
+table td{
+	display:inline-block;
+}
+
+table td a{
+	text-decoration: none;
+	color: #F8060A;
+	padding: 5px 20px;
+	border: 1px solid #FD0307;
+	transition: 0.6s ease;
+}
+
+table td a:hover{
+	background-color: #FB0206;
+	color: #000000;
+}
+
+.contain{
+	width: 50%;
+	height: 70%;
+	background-image: url("img/c38f46171914f5ca7c56c7f2afa5393f.gif");
+	transform: translate(-50%,-50%);
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	box-shadow: 5px 3px 15px 4px;
+	
+}
+form{
+	position: absolute;
+	left: 7%;
+	top: 5%;
+}
